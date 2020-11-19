@@ -11,4 +11,4 @@
 // }
 
 let agePerson = 20;
-console.log('agePerson: ', agePerson);
+alert('agePerson: ', agePerson);
