@@ -1,14 +1,12 @@
 "use strict"
 
-// function pow(x, n)  {
-//    let result = 1;
+let money
+let income
+let addExpenses
+let deposit
+let mission
+let period
 
-//    for (let i = 0; i < n; i++) {
-//       result *= x;
-//    }
-   
-//    return result;
-// }
+alert("Hello world!");
 
-let agePerson = 20;
-alert('agePerson: ', agePerson);
+console.log("Здравствуйте");
