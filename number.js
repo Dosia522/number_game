@@ -5,6 +5,10 @@ const getRandomNumber = function(min, max) {
    return Math.round(rand);
 };
 
+let checNumber = function(n) {
+   return !isNaN(parseFloat(n)) && isFinite(n);
+};
+
 const getUserNumber = function(str){
    const number = prompt(str);
    if (checNumber(number)) {
